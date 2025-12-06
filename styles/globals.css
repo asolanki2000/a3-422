@@ -1,0 +1,5 @@
+/* Global tweaks */
+.table-hover tbody tr:hover { cursor: pointer; }
+body { padding-bottom: 3rem; }
+.form-error { font-size: 0.9rem; }
+.header-subtext { margin-top: .25rem; opacity: .8; }
