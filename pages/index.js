@@ -7,20 +7,9 @@
 *  https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
 *
 *  Name: Ashish Dilipbhai Solanki  Student ID: 128266228  Date: 2025-11-11
+*  Vercel Link: https://YOUR-CLIENT-URL.vercel.app
 *
 ********************************************************************************/
-// Load environment variables from .env
-
-require('dotenv').config();
-
-userService
-  .initialize(process.env.MONGO_URL)
-  .then(() => {
-    app.listen(HTTP_PORT, () => {
-      console.log(`User API listening on: ${HTTP_PORT}`);
-    });
-  })
-
 
 import { useRouter } from 'next/router';
 import { useForm } from 'react-hook-form';
